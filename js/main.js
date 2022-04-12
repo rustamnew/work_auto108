@@ -25,4 +25,23 @@ $(document).ready(function(){
     })
 });
 
+
+let productList = document.querySelector('.product-list')
+let filterLines = document.querySelector('.filter-lines')
+let filterGrid = document.querySelector('.filter-grid')
+
+filterLines.addEventListener('click', (e)=> {
+    e.preventDefault()
+    productList.classList.remove('grid')
+    productList.classList.add('lines')
+})
+filterGrid.addEventListener('click', (e)=> {
+    e.preventDefault()
+    productList.classList.remove('lines')
+    productList.classList.add('grid')
+})
+
+console.log(filterLines)
+console.log(filterGrid)
+
 //
