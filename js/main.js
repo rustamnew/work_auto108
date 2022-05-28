@@ -12,10 +12,10 @@ $(document).ready(function(){
         margin: 10,
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
-            810: {
-                items: 3
+            768: {
+                items: 1
             },
             1061: {
                 items: 4
